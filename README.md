@@ -16,7 +16,7 @@ My First program in clojure
 ### How to test
     $ lein test
    
-## License
+### License
 
 Copyright © 2019 FIXME
 
