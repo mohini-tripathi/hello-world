@@ -4,7 +4,7 @@ My First program in clojure
 
 ### How it works
 * This program returns "Hello, World!" as a string
-* It tests returned string against four assertions 
+* This program tests the string against four assertions 
 
 ### Installation
 * Install Java Runtime Environment (JRE) from http://www.oracle.com/technetwork/java/javase/downloads/index.html
