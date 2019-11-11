@@ -1,33 +1,24 @@
 # hello-world
 
-FIXME: description
+My First program in clojure
+
+## How it works
+* This program returns "Hello, World!" as a string
+* It tests returned string against four assertions 
 
 ## Installation
+* Install Java Runtime Environment (JRE) from http://www.oracle.com/technetwork/java/javase/downloads/index.html
+* Install Leiningen using the instructions on the Leiningen home page at http://leiningen.org/ 
 
-Download from http://example.com/FIXME.
 
 ## Usage
-
-FIXME: explanation
-
-    $ java -jar hello-world-0.1.0-standalone.jar [args]
-
-## Options
-
-FIXME: listing of options this app accepts.
-
-## Examples
-
-...
-
-### Bugs
-
-...
-
-### Any Other Sections
-### That You Think
-### Might be Useful
-
+   
+   ### How to run
+    $ lein run
+ 
+   ### How to test
+    $ lein test
+   
 ## License
 
 Copyright © 2019 FIXME
