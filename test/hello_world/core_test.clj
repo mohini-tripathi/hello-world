@@ -2,6 +2,13 @@
   (:require [clojure.test :refer :all]
             [hello-world.core :refer :all]))
 
-(deftest a-test
-  (testing "FIXME, I fail."
-    (is (= 0 1))))
+
+(with-test
+  (defn my-function [& args]
+    (str "Hello, World!"))
+  (is (= "Hello" (my-function)))
+  (is (= "HELLO" (my-function)))
+  (is (= "Hello, World!" (my-function)))
+  (is (= "Hi" (my-function))))
+
+(run-all-tests)
