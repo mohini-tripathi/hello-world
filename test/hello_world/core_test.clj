@@ -11,4 +11,4 @@
   (is (= "Hello, World!" (my-function)))
   (is (= "Hi" (my-function))))
 
-(run-all-tests)
+(run-tests)
