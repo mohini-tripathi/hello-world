@@ -1,22 +1,19 @@
-# hello-world
+## hello-world
 
 My First program in clojure
 
-## How it works
+### How it works
 * This program returns "Hello, World!" as a string
 * It tests returned string against four assertions 
 
-## Installation
+### Installation
 * Install Java Runtime Environment (JRE) from http://www.oracle.com/technetwork/java/javase/downloads/index.html
 * Install Leiningen using the instructions on the Leiningen home page at http://leiningen.org/ 
-
-
-## Usage
    
-   ### How to run
+### How to run
     $ lein run
  
-   ### How to test
+### How to test
     $ lein test
    
 ## License
